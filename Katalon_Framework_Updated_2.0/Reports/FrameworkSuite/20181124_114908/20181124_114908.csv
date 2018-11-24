@@ -1,0 +1,103 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FrameworkSuite,Chrome 70.0.3538.102,,2018-11-24 11:49:15,2018-11-24 11:51:53,2m - 38.602s,PASSED
+,,,,,,
+Test Cases/Framework/CollectionsMap,Chrome 70.0.3538.102,,2018-11-24 11:49:15,2018-11-24 11:49:36,21.229s,PASSED
+Statement - TestCase = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Data Files/Framework/TestCase),Chrome 70.0.3538.102,,2018-11-24 11:49:16,2018-11-24 11:49:17,1.220s,PASSED
+Statement - Configuration = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Data Files/Framework/Configuration),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.255s,PASSED
+Statement - Testcase_numbers_index = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.002s,PASSED
+Statement - Testcase_numbers_values = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.002s,PASSED
+Statement - config_numbers_values = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.002s,PASSED
+Statement - config_numbers_index = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.004s,PASSED
+Statement - testcase_index = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.002s,PASSED
+Statement - testcase_value = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.001s,PASSED
+Statement - config_useraction_values = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.003s,PASSED
+Statement - config_useraction_index = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.002s,PASSED
+Statement - hmap = new java.util.TreeMap(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.011s,PASSED
+Statement - hmapuserAction = new java.util.TreeMap(),Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:17,0.009s,PASSED
+"Statement - For ([getTestCaseData = 1, getTestCaseData <= TestCase.getRowNumbers(), (getTestCaseData++)])",Chrome 70.0.3538.102,,2018-11-24 11:49:17,2018-11-24 11:49:27,9.586s,PASSED
+"Statement - While (hmap.values().remove("""") || hmap.values().remove(null))",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.010s,PASSED
+Statement - mappinghmap = hmap.entrySet(),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.002s,PASSED
+Statement - mappinghmapusrAct = hmapuserAction.entrySet(),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.001s,PASSED
+Statement - println(Set of Keys and Values using entrySet() : $mappinghmap),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.035s,PASSED
+"Statement - For (Map$Entry<Integer, String> entries : mappinghmap)",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.195s,PASSED
+"Statement - For (Map$Entry<Integer, String> entriesuseract : mappinghmapusrAct)",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.051s,PASSED
+"Statement - out.println(""Last numbers_values : "" + Testcase_numbers_values)",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.007s,PASSED
+"Statement - out.println(""Last numbers_index : "" + Testcase_numbers_index)",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+"Statement - out.println(""Last numbers_values : "" + testcase_value)",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.001s,PASSED
+"Statement - out.println(""Last numbers_index : "" + testcase_index)",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.001s,PASSED
+"Statement - out.println(""hmap : "" + hmap)",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.001s,PASSED
+"Statement - out.println(""hmapuserAction : "" + hmapuserAction)",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+Statement - sizeCountValue = Testcase_numbers_values.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+Statement - sizeCountIndex = Testcase_numbers_index.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+Statement - testcasesizeCountValue = testcase_value.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+Statement - testcasesizeCountIndex = testcase_index.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.001s,PASSED
+Statement - println(sizeCountValue :$sizeCountValue),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+Statement - println(sizeCountIndex :$sizeCountIndex),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+Statement - println(testcasesizeCountValue :$testcasesizeCountValue),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+Statement - println(testcasesizeCountIndex :$testcasesizeCountIndex),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+Statement - hmapconfig = new java.util.TreeMap(),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+Statement - hmapconfiguserAction = new java.util.TreeMap(),Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:27,0.000s,PASSED
+"Statement - For ([getConfigData = 1, getConfigData <= Configuration.getRowNumbers(), (getConfigData++)])",Chrome 70.0.3538.102,,2018-11-24 11:49:27,2018-11-24 11:49:36,9.028s,PASSED
+"Statement - While (hmapconfig.values().remove("""") || hmapconfig.values().remove(null))",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+Statement - mappingconfighmap = hmapconfig.entrySet(),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - mappingconfusracthmap = hmapconfiguserAction.entrySet(),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+Statement - println(Set of Keys and Values using entrySet() : $mappingconfighmap),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.003s,PASSED
+"Statement - For (Map$Entry<Integer, String> mappingentries : mappingconfighmap)",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.007s,PASSED
+"Statement - For (Map$Entry<Integer, String> mappingusractentries : mappingconfusracthmap)",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.013s,PASSED
+"Statement - out.println(""GlobalVariable.config_numbers_value : "" + config_numbers_values)",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+"Statement - out.println(""config_numbers_index : "" + config_numbers_index)",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+"Statement - out.println(""config_useraction_values : "" + config_useraction_values)",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+"Statement - out.println(""config_useraction_index : "" + config_useraction_index)",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+"Statement - out.println(""hmapconfig : "" + hmapconfig)",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+"Statement - out.println(""hmapconfiguserAction : "" + hmapconfiguserAction)",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - configsizeCountValue = config_numbers_values.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - configsizeCountIndex = config_numbers_index.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+Statement - useractionconfigsizeCountValue = config_useraction_values.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - useractionconfigsizeCountIndex = config_useraction_index.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - println(configsizeCountValue :$configsizeCountValue),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+Statement - println(configsizeCountIndex :$configsizeCountIndex),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - println(useractionconfigsizeCountValue :$useractionconfigsizeCountValue),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+Statement - println(useractionconfigsizeCountIndex :$useractionconfigsizeCountIndex),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+"Statement - For ([i = 0, i < configsizeCountValue, (i++)])",Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.088s,PASSED
+Statement - println(GlobalVariable.ActualTCindex:$GlobalVariable.ActualTCindex),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+Statement - println(GlobalVariable.ActualTCmodulevalues:$GlobalVariable.ActualTCmodulevalues),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - println(GlobalVariable.ActualTCuseractvalues:$GlobalVariable.ActualTCuseractvalues),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - println(GlobalVariable.ActualConfigindex:$GlobalVariable.ActualConfigindex),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - println(GlobalVariable.ActualConfigmodulevalues:$GlobalVariable.ActualConfigmodulevalues),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - println(GlobalVariable.ActualConfiguseractvalues:$GlobalVariable.ActualConfiguseractvalues),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - ActualindexCount = ActualTCindex.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - ActualmodulevalueCount = ActualTCmodulevalues.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.004s,PASSED
+Statement - ActualuseractvalueCount = ActualTCuseractvalues.size(),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - println(ActualindexCount :$ActualindexCount),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+Statement - println(ActualmodulevalueCount :$ActualmodulevalueCount),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.001s,PASSED
+Statement - println(ActualuseractvalueCount :$ActualuseractvalueCount),Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:49:36,0.000s,PASSED
+,,,,,,
+Test Cases/Framework/Framing,Chrome 70.0.3538.102,,2018-11-24 11:49:36,2018-11-24 11:51:53,2m - 16.876s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-24 11:49:37,2018-11-24 11:49:41,3.550s,PASSED
+Statement - loginData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Data Files/Framework/Configuration),Chrome 70.0.3538.102,Getting the Login sheet Data from Data files,2018-11-24 11:49:41,2018-11-24 11:49:41,0.117s,PASSED
+"Statement - url = loginData.getValue(""URL"", 1)",Chrome 70.0.3538.102,Getting the Url Data from Testcase sheet,2018-11-24 11:49:41,2018-11-24 11:49:41,0.008s,PASSED
+Statement - If (!(url.isEmpty())),Chrome 70.0.3538.102,,2018-11-24 11:49:41,2018-11-24 11:49:43,2.152s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:49:43,2018-11-24 11:49:45,1.524s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:49:45,2018-11-24 11:49:46,1.379s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:49:46,2018-11-24 11:49:58,12.312s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:49:58,2018-11-24 11:50:08,9.446s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:50:08,2018-11-24 11:50:19,10.754s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:50:19,2018-11-24 11:50:30,11.517s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:50:30,2018-11-24 11:50:34,3.475s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:50:34,2018-11-24 11:50:35,1.555s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-24 11:50:35,2018-11-24 11:50:41,5.797s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:50:41,2018-11-24 11:50:49,8.336s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-24 11:50:49,2018-11-24 11:50:51,1.249s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-24 11:50:51,2018-11-24 11:50:54,3.222s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-24 11:50:54,2018-11-24 11:50:55,1.434s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:50:55,2018-11-24 11:51:00,4.471s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:51:00,2018-11-24 11:51:09,9.406s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:51:09,2018-11-24 11:51:20,10.925s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:51:20,2018-11-24 11:51:32,11.426s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:51:32,2018-11-24 11:51:34,2.418s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:51:34,2018-11-24 11:51:36,2.483s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:51:36,2018-11-24 11:51:46,9.362s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-24 11:51:46,2018-11-24 11:51:47,1.182s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-24 11:51:47,2018-11-24 11:51:48,1.287s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-24 11:51:48,2018-11-24 11:51:50,1.513s,PASSED
+Statement - switch (fieldType),Chrome 70.0.3538.102,,2018-11-24 11:51:50,2018-11-24 11:51:53,3.400s,PASSED

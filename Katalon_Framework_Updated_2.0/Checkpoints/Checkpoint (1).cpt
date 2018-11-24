@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint (1)</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>E:\Rajesh\NCTI\Automation\NCTI\Frame.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Configuration</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2018-06-18T12:03:47.888</taken-date>
+   <column-names>
+      <column-name>S.No</column-name>
+      <column-name>Module_Name</column-name>
+      <column-name>UserAction</column-name>
+      <column-name>Data Status</column-name>
+      <column-name>Reason</column-name>
+      <column-name>URL</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "1",
+      "checked": false
+    },
+    {
+      "value": "Login",
+      "checked": true
+    },
+    {
+      "value": "Login",
+      "checked": true
+    },
+    {
+      "value": "Valid Data",
+      "checked": false
+    },
+    {
+      "value": "Working as Expected",
+      "checked": false
+    },
+    {
+      "value": "http://192.168.0.19/ncti-web-portal/admin/users/login",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "2",
+      "checked": false
+    },
+    {
+      "value": "Users",
+      "checked": true
+    },
+    {
+      "value": "User_Add",
+      "checked": true
+    },
+    {
+      "value": "Valid Data",
+      "checked": false
+    },
+    {
+      "value": "Working as Expected",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
